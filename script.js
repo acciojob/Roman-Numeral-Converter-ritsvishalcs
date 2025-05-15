@@ -12,7 +12,7 @@ function convertToRoman(num) {
   //your code here
 	 let result = "";
 
-    for (let i = 0; i <= 12; i++) {
+    for (let i = 0; i <= 6; i++) {
       let symbol = obj[i][0];
       let value = obj[i][1];
 
